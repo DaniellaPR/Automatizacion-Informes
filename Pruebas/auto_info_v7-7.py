@@ -14,8 +14,8 @@ El presente programa se encarga de automatizar la generación de los presentes i
 
 Toda la información que se inserta en los informes se obtiene de su respectivo TDR. Para la presente prueba se utilizó el TDR: CTDR_Asistente_Desarrollo_Informático
 
-Para poder realizar la automatización tambien se utilizaron una serie de plantillas de los distintos informes, los cuales presentan una notación Jinja2 para poder 
-insertar marcadores en donde se deba de reemplazar información cambiante en los reportes.
+Para poder realizar la automatización también se utilizaron una serie de plantillas de los distintos informes, los cuales presentan una notación Jinja2 para poder 
+insertar marcadores en donde se deba reemplazar información cambiante en los reportes.
 
 A continuación el código fuente del programa:
 
