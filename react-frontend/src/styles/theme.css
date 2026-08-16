@@ -1,0 +1,26 @@
+:root {
+    --inec-amarillo: #FCD116; 
+    --inec-azul:     #0038A8; 
+    --inec-rojo:     #CE1126; 
+
+    --bg: #f6f7fb;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+
+    --primary: var(--inec-azul);
+    --primary-600:#0a2e8a;
+    --accent: var(--inec-amarillo);
+    --danger: var(--inec-rojo);
+
+    --ring: rgba(0,56,168,0.25);
+    --shadow: 0 10px 25px rgba(2,8,23,0.08);
+
+    --black:  rgb(0, 0, 0);
+}
+
+*{box-sizing: border-box}
+html, body, #root{height: 100%}
+body{margin:0; font-family:ui-sans-serif, system-ui, Segoe UI, Roboto, Arial; background:var(--bg); color:var(--text)}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer}

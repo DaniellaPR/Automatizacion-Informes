@@ -1,0 +1,192 @@
+:root {
+
+  --inec-amarillo: #FCD116;
+
+  --inec-azul: #0038A8;
+
+  --inec-rojo: #CE1126;
+
+ 
+
+  --bg: #f6f7fb;
+
+  --card: #ffffff;
+
+  --text: #0f172a;
+
+  --muted: #64748b;
+
+ 
+
+  --primary: var(--inec-azul);
+
+  --primary-600: #0a2e8a;
+
+  --accent: var(--inec-amarillo);
+
+  --danger: var(--inec-rojo);
+
+ 
+
+  --ring: rgba(0, 56, 168, 0.25);
+
+  --shadow: 0 10px 25px rgba(2, 8, 23, 0.08);
+
+ 
+
+  --black: rgb(0, 0, 0);
+
+}
+
+ 
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+ 
+
+html, body, #root {
+
+  height: 100%;
+
+}
+
+ 
+
+body {
+
+  margin: 10;
+
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Arial;
+
+  background: var(--bg);
+
+  color: var(--text);
+
+
+}
+
+ 
+
+.app-container {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-height: 90vh;
+
+}
+
+ 
+
+.card {
+
+  background: var(--card);
+
+  padding: 3rem;
+
+  border-radius: 2rem;
+
+  box-shadow: var(--shadow);
+
+  width: 400px;
+
+  text-align: center;
+
+}
+
+ 
+
+.logo {
+
+  width: 90px;
+
+  margin-bottom: 3rem;
+
+}
+
+ 
+
+.titulo {
+
+  font-size: 1.9rem;
+
+  font-weight: bold;
+
+  margin-bottom: 1.0rem;
+
+  margin-top: 0.2rem;
+
+}
+
+ 
+
+.opciones {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.90rem;
+
+}
+
+ 
+
+.btn {
+
+  padding: 1rem 1rem;
+
+  border-radius: 0.90rem;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+ 
+
+.btn:hover {
+
+  transform: translateY(-2px);
+
+}
+
+ 
+
+.btn-primary {
+
+  background: var(--primary);
+
+  color: white;
+
+}
+
+ 
+
+.btn-primary:hover {
+
+  background: var(--primary-600);
+
+}
+
+ 
+
+.btn-accent {
+
+  background: var(--accent);
+
+  color: var(--black);
+
+}

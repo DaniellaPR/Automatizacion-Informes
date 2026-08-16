@@ -1,0 +1,11 @@
+# Entornos virtuales de Python
+python_backend/.venv/
+venv/
+__pycache__/
+
+# Dependencias de Node / React
+react-frontend/node_modules/
+react-frontend/react-frontend/node_modules/
+dist/
+build/
+.env
